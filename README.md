@@ -32,4 +32,4 @@ El reporte HTML queda disponible en `reports/report.html`.
 
 ## Pipeline
 
-El workflow de GitHub Actions se ejecuta de forma manual desde la pestaña `Actions`, usando el boton `Run workflow`. Instala dependencias, ejecuta los tests y publica el reporte HTML como artefacto.
+El workflow de GitHub Actions se ejecuta automaticamente en cada `push` y `pull_request`. Instala dependencias, ejecuta los tests y publica el reporte HTML como artefacto.
